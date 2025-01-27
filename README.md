@@ -19,7 +19,7 @@
 
 - 💬 Ask me about **Html5,Css3,Javascript,Telwind,Bootstrap5,React Js**
 
-- 📫 How to reach me **murad.my00@gmail.com**
+- 📫 How to reach me **murad.stepupgmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
