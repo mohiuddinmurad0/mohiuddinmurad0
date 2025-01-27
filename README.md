@@ -2,8 +2,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Mohiuddin+Murad!;" />
 </h1>
 <h3 align="center">A passionate Front End Developer from Bangladesh</h3>
-
-<p>Work in <a href="https://www.facebook.com/stepup4u">StepUp</a> Company</p>
+<p>I work at <a href="https://www.facebook.com/stepup4u">StepUp</a> Company.</p>
 <img align="right" alt="codeing" width="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/06f21a161921919.63cd7887d0a70.gif">
 
 
