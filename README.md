@@ -8,7 +8,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=muradmy00&label=Profile%20views&color=0e75b6&style=flat" alt="muradmy00" /> </p>
 
-<p align="left"> <a href="https://github.com/muradmy00" target="blank"><img width="100" height="100" src="https://ibb.co.com/fYr3cT0F" alt="muradmy00" /></a> </p>
+<p align="left"> <a href="https://github.com/muradmy00" target="blank"><img width="100" height="100" src="https://static.vecteezy.com/system/resources/previews/016/833/880/non_2x/github-logo-git-hub-icon-with-text-on-white-background-free-vector.jpg" alt="muradmy00" /></a> </p>
 
 - 🌱 I’m currently learning **Node Js,Express Js,Mongodb**
 
