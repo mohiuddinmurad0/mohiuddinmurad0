@@ -17,7 +17,7 @@
 
 - 🌱 I’m currently learning **Node Js,Express Js,Mongodb**
 
-- 👨‍💻 All of my projects are available at [https://murad-tau.vercel.app/](https://murad-tau.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://murad00.vercel.app/](https://murad00.vercel.app/)
 
 - 📝 I Publish My some Work in Live link in Vercel [https://vercel.com/mohiuddin-murads-projects](https://vercel.com/mohiuddin-murads-projects)
 
