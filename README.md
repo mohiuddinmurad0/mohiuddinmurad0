@@ -3,32 +3,13 @@
 </h1>
 <h3 align="center">A passionate Software Engineer from Bangladesh</h3>
 
-```text
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠄⡄⣀⣴⣤⣠⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀murad@github
-⠀⠀⠀⠀⢀⣠⣀⣴⣴⣾⣿⣾⣿⣿⣿⣿⣟⣾⣯⣷⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀──────────────────────────────────────────
-⠀⠀⢀⣠⣞⣾⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⣄⠀⠀⠀⠀⠀⠀Name.............. Mohiuddin Murad
-⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⠀⠀⠀⠀Role.............. Software Engineer @ StepUp
-⠀⡚⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣷⡿⣷⡂⠀⠀⠀Location.......... Bangladesh
-⢪⠊⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⡂⠀⠀⠀Editor............ VS Code, Sublime, PyCharm
-⠈⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⡿⣿⣳⢝⡯⢿⢿⡏⣟⣿⣿⣿⣿⠂⠀⠀⠀
-⠀⠀⢹⣿⣿⣿⡳⣳⢝⢮⢫⠻⡕⡟⠝⡘⠌⡊⠢⠡⢙⠌⢿⣿⣿⣏⠂⠀⠀⠀Frontend.......... HTML5, CSS3, React, Tailwind, Sass
-⠀⠀⢸⣿⡿⣕⢽⣾⢿⣷⣷⡷⡕⡌⡢⠨⡰⣬⣦⣵⡰⣈⠨⣿⡗⠀⠀⠀⠀⠀Backend........... Node.js, Express.js
-⠀⠀⠐⣿⡏⡮⣻⣵⣳⣵⡵⣟⣿⢎⠆⠱⣜⣮⣎⢆⠅⠕⠄⢽⠁⠀⠀⠀⠀⠀Languages......... JavaScript, C, C++, Java, Python
-⠀⢀⢄⡿⡪⡝⡎⡯⡯⡯⡗⡯⡏⡇⠌⠠⠹⢜⢝⢌⢙⠨⠀⢍⠀⠀⠀⠀⠀⠀Databases......... MongoDB, MySQL, Firebase
-⠀⢸⡑⣯⡪⡪⡊⡆⠕⢌⢊⡢⡇⢇⠡⠐⠀⠅⠂⢂⠐⠀⠁⡐⠨⠀⠀⠀⠀⠀Tools............. Git, Docker, Postman, Figma, Linux
-⠀⢐⢽⣗⡧⡣⡣⣊⠪⡐⢔⢧⡺⣆⡂⠴⠄⠅⠅⠄⠀⠀⠀⡐⠄⠀⠀⠀⠀⠀
-⠀⠀⢗⣿⣻⣮⡣⡣⢕⢮⣮⣾⢿⡻⢜⢮⡢⣅⢅⠅⡐⢀⠡⣘⠀⠀⠀⠀⠀⠀Learning.......... Node.js / Express.js / MongoDB
-⠀⠀⠈⠸⣟⣾⡽⣎⢗⣿⣻⣞⢷⠽⡸⠔⠮⡺⣗⠔⡐⡐⢌⠂⠀⠀⠀⠀⠀⠀Ask.Me.About...... JavaScript, React, Tailwind, CSS3
-⠀⠀⠀⠀⢹⣾⢽⣳⣳⣿⢮⣞⣧⣧⣇⡥⡡⢊⢔⢕⠐⢌⠢⠁⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢚⣿⣿⣿⣿⣿⣿⣳⣳⡝⣎⢖⢌⢎⢮⣲⢱⠡⠁⠀⠀⠀⠀⠀⠀⠀Contact
-⠀⠀⠀⠀⢜⣞⣿⣿⣿⣿⣿⣯⣷⡿⣞⣧⣗⣷⢿⡾⡫⠁⠀⠀⠀⠀⠀⠀⠀⠀Email............. murad.stepup@gmail.com
-⠀⠀⠀⠀⠈⢺⡪⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⡏⡣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Portfolio......... murad00.vercel.app
-⠀⠀⠀⠀⠀⠀⠙⢜⢮⢺⢝⣟⣟⢯⢯⠻⡨⡃⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀LinkedIn.......... linkedin.com/in/murad00
-⠀⠀⠀⠀⠀⠀⠀⠀⠑⠕⡕⢌⠪⡊⠪⡈⡂⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Twitter........... @muradmy00
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠊⢌⠌⢌⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀GitHub............ github.com/muradmy00
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀████ ████ ████ ████ ████ ████ ████ ████
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
+    <img src="assets/profile-light.svg" alt="murad@github" width="900">
+  </picture>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=muradmy00&label=Profile%20views&color=0e75b6&style=flat" alt="muradmy00" />
