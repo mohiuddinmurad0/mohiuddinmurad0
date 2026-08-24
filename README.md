@@ -4,30 +4,30 @@
 <h3 align="center">A passionate Software Engineer from Bangladesh</h3>
 
 ```text
-          .-:--*+~::.            murad@github
-     :~-**%@%@@@@@@@@+~:         ──────────────────────────────────────────
-   ~*%@@@@@@@@@@@@@@@@@@*.       Name.............. Mohiuddin Murad
-  +@@@@@@@@@@@@@@@@@@@@@@%*-     Role.............. Software Engineer @ StepUp
-.-#@@@@@@@@@@@@@@@@@@@@@@@@%     Location.......... Bangladesh
-:+*@@@@@@@@@@@@@@@@@@@@@@@@%.    Editor............ VS Code, Sublime, PyCharm
- -#@@@@@@@@@@@@@#***##*@@@@#
-  .@@@%####*++=--:-::--~@@#-     Frontend.......... HTML5, CSS3, React, Tailwind, Sass
-   %@**%%%%%%*=-:=##*=~:+@.      Backend........... Node.js, Express.js
-   +@+#%@@%#%@*::*%%+=~:-=       Languages......... JavaScript, C, C++, Java, Python
- :=*#+++++++++~: :~~-::..:.      Databases......... MongoDB, MySQL, Firebase
- .+##+=~--:~++~...:..   .:.      Tools............. Git, Docker, Postman, Figma, Linux
-  =@@#++=~=+%@%==~:-....:-
-  .=@@@#+*@@@%*+++##-:::~:       Learning.......... Node.js / Express.js / MongoDB
-    ~@@%#%@%%#*+~-~+=:-~:        Ask.Me.About...... JavaScript, React, Tailwind, CSS3
-     %@@@@@@%%%#=~~=+~~:
-    .#@@@@@@@@%%#*#%@#~          Contact
-     ~#@@@@@@@@@@@@%*:           Email............. murad.stepup@gmail.com
-      .=##%%@@@%#*=-             Portfolio......... murad00.vercel.app
-        .-=====~-:.              LinkedIn.......... linkedin.com/in/murad00
-           :----.                Twitter........... @muradmy00
-                                 GitHub............ github.com/muradmy00
-
-                                 ████ ████ ████ ████ ████ ████ ████ ████
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠄⡄⣀⣴⣤⣠⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀murad@github
+⠀⠀⠀⠀⢀⣠⣀⣴⣴⣾⣿⣾⣿⣿⣿⣿⣟⣾⣯⣷⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀──────────────────────────────────────────
+⠀⠀⢀⣠⣞⣾⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⣄⠀⠀⠀⠀⠀⠀Name.............. Mohiuddin Murad
+⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⠀⠀⠀⠀Role.............. Software Engineer @ StepUp
+⠀⡚⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣷⡿⣷⡂⠀⠀⠀Location.......... Bangladesh
+⢪⠊⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⡂⠀⠀⠀Editor............ VS Code, Sublime, PyCharm
+⠈⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⡿⣿⣳⢝⡯⢿⢿⡏⣟⣿⣿⣿⣿⠂⠀⠀⠀
+⠀⠀⢹⣿⣿⣿⡳⣳⢝⢮⢫⠻⡕⡟⠝⡘⠌⡊⠢⠡⢙⠌⢿⣿⣿⣏⠂⠀⠀⠀Frontend.......... HTML5, CSS3, React, Tailwind, Sass
+⠀⠀⢸⣿⡿⣕⢽⣾⢿⣷⣷⡷⡕⡌⡢⠨⡰⣬⣦⣵⡰⣈⠨⣿⡗⠀⠀⠀⠀⠀Backend........... Node.js, Express.js
+⠀⠀⠐⣿⡏⡮⣻⣵⣳⣵⡵⣟⣿⢎⠆⠱⣜⣮⣎⢆⠅⠕⠄⢽⠁⠀⠀⠀⠀⠀Languages......... JavaScript, C, C++, Java, Python
+⠀⢀⢄⡿⡪⡝⡎⡯⡯⡯⡗⡯⡏⡇⠌⠠⠹⢜⢝⢌⢙⠨⠀⢍⠀⠀⠀⠀⠀⠀Databases......... MongoDB, MySQL, Firebase
+⠀⢸⡑⣯⡪⡪⡊⡆⠕⢌⢊⡢⡇⢇⠡⠐⠀⠅⠂⢂⠐⠀⠁⡐⠨⠀⠀⠀⠀⠀Tools............. Git, Docker, Postman, Figma, Linux
+⠀⢐⢽⣗⡧⡣⡣⣊⠪⡐⢔⢧⡺⣆⡂⠴⠄⠅⠅⠄⠀⠀⠀⡐⠄⠀⠀⠀⠀⠀
+⠀⠀⢗⣿⣻⣮⡣⡣⢕⢮⣮⣾⢿⡻⢜⢮⡢⣅⢅⠅⡐⢀⠡⣘⠀⠀⠀⠀⠀⠀Learning.......... Node.js / Express.js / MongoDB
+⠀⠀⠈⠸⣟⣾⡽⣎⢗⣿⣻⣞⢷⠽⡸⠔⠮⡺⣗⠔⡐⡐⢌⠂⠀⠀⠀⠀⠀⠀Ask.Me.About...... JavaScript, React, Tailwind, CSS3
+⠀⠀⠀⠀⢹⣾⢽⣳⣳⣿⢮⣞⣧⣧⣇⡥⡡⢊⢔⢕⠐⢌⠢⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢚⣿⣿⣿⣿⣿⣿⣳⣳⡝⣎⢖⢌⢎⢮⣲⢱⠡⠁⠀⠀⠀⠀⠀⠀⠀Contact
+⠀⠀⠀⠀⢜⣞⣿⣿⣿⣿⣿⣯⣷⡿⣞⣧⣗⣷⢿⡾⡫⠁⠀⠀⠀⠀⠀⠀⠀⠀Email............. murad.stepup@gmail.com
+⠀⠀⠀⠀⠈⢺⡪⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⡏⡣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Portfolio......... murad00.vercel.app
+⠀⠀⠀⠀⠀⠀⠙⢜⢮⢺⢝⣟⣟⢯⢯⠻⡨⡃⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀LinkedIn.......... linkedin.com/in/murad00
+⠀⠀⠀⠀⠀⠀⠀⠀⠑⠕⡕⢌⠪⡊⠪⡈⡂⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Twitter........... @muradmy00
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠊⢌⠌⢌⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀GitHub............ github.com/muradmy00
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀████ ████ ████ ████ ████ ████ ████ ████
 ```
 
 <p align="center">
