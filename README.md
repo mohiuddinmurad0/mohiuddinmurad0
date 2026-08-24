@@ -38,10 +38,3 @@
   <br/>
   <img src="https://skillicons.dev/icons?i=c,cpp,java,python,figma,firebase,docker,postman,git,linux,vscode,vite&perline=12" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muradmy00&show_icons=true&locale=en&theme=transparent" alt="muradmy00" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=muradmy00&theme=transparent" alt="muradmy00" />
-</p>
