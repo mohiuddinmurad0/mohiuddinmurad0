@@ -17,10 +17,10 @@
 
 ---
 
-- 🌱 I’m currently learning **Node.js, Express.js, MongoDB**
+- 🌱 I’m currently learning **MongoDB**
 - 👨‍💻 All of my projects are available at [murad00.vercel.app](https://murad00.vercel.app/)
 - 📝 I publish my work live on [Vercel](https://vercel.com/mohiuddin-murads-projects)
-- 💬 Ask me about **HTML5, CSS3, JavaScript, Tailwind, Bootstrap5, React**
+- 💬 Ask me about **JavaScript, React, Next.js, Node.js, Express.js**
 - 📫 How to reach me **murad.stepup@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
@@ -34,7 +34,7 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,tailwind,js,react,vuetify,nodejs,express,mongodb,mysql&perline=12" />
+  <img src="https://skillicons.dev/icons?i=html,css,sass,bootstrap,tailwind,js,react,nextjs,vuetify,nodejs,express,mongodb,mysql&perline=13" />
   <br/>
   <img src="https://skillicons.dev/icons?i=c,cpp,java,python,figma,firebase,docker,postman,git,linux,vscode,vite&perline=12" />
 </p>

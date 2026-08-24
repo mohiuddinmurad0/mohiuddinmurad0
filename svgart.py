@@ -29,20 +29,20 @@ SWATCH = GREYS if DARK else GREYS[::-1]
 
 INFO = [
     [("bold", "murad"), ("ink", "@"), ("bold", "github")],
-    [("mute", "─" * 46)],
+    [("mute", "─")],          # widened below to match the longest line
     [("ink", "Name"), ("mute", ".............. "), ("ink", "Mohiuddin Murad")],
     [("ink", "Role"), ("mute", ".............. "), ("ink", "Software Engineer @ StepUp")],
     [("ink", "Location"), ("mute", ".......... "), ("ink", "Bangladesh")],
-    [("ink", "Editor"), ("mute", "............ "), ("ink", "VS Code, Sublime, PyCharm")],
+    [("ink", "Editor"), ("mute", "............ "), ("ink", "VS Code, WebStorm, Sublime, PyCharm")],
     [],
-    [("ink", "Frontend"), ("mute", ".......... "), ("ink", "HTML5, CSS3, React, Tailwind, Sass")],
+    [("ink", "Frontend"), ("mute", ".......... "), ("ink", "HTML5, CSS3, React, Next.js, Tailwind, Sass")],
     [("ink", "Backend"), ("mute", "........... "), ("ink", "Node.js, Express.js")],
     [("ink", "Languages"), ("mute", "......... "), ("ink", "JavaScript, C, C++, Java, Python")],
     [("ink", "Databases"), ("mute", "......... "), ("ink", "MongoDB, MySQL, Firebase")],
     [("ink", "Tools"), ("mute", "............. "), ("ink", "Git, Docker, Postman, Figma, Linux")],
     [],
-    [("ink", "Learning"), ("mute", ".......... "), ("ink", "Node.js / Express.js / MongoDB")],
-    [("ink", "Ask.Me.About"), ("mute", "...... "), ("ink", "JavaScript, React, Tailwind, CSS3")],
+    [("ink", "Learning"), ("mute", ".......... "), ("ink", "MongoDB")],
+    [("ink", "Ask.Me.About"), ("mute", "...... "), ("ink", "JavaScript, React, Next.js, Node.js, Express.js")],
     [],
     [("bold", "Contact")],
     [("ink", "Email"), ("mute", "............. "), ("ink", "murad.stepup@gmail.com")],
@@ -51,6 +51,10 @@ INFO = [
     [("ink", "Twitter"), ("mute", "........... "), ("ink", "@muradmy00")],
     [("ink", "GitHub"), ("mute", "............ "), ("ink", "github.com/mohiuddinmurad0")],
 ]
+
+# the divider should span the panel, so size it once the entries are known
+_w = max(sum(len(t) for _, t in ln) for ln in INFO if len(ln) > 1)
+INFO[1] = [("mute", "─" * _w)]
 
 # ---------- sample the photo ----------
 src  = ImageEnhance.Contrast(Image.open(SRC).convert("L")).enhance(1.1)

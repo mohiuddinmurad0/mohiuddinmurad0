@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1512" height="1116" viewBox="0 0 1512 1116" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;DejaVu Sans Mono&quot;,monospace" font-size="12.0">
+<svg xmlns="http://www.w3.org/2000/svg" width="1606" height="1116" viewBox="0 0 1606 1116" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;DejaVu Sans Mono&quot;,monospace" font-size="12.0">
 <rect width="100%" height="100%" fill="#000000"/>
 <text y="27.8" fill="#ededed" xml:space="preserve"><tspan x="568.8">█</tspan></text>
 <text y="39.8" fill="#ededed" xml:space="preserve"><tspan x="475.2">█</tspan><tspan x="489.6">███</tspan><tspan x="540.0">████▓██</tspan></text>
@@ -91,18 +91,18 @@
 <text y="1083.8" fill="#ededed" xml:space="preserve"><tspan x="7.2">█████████████</tspan><tspan x="158.4">███</tspan><tspan x="216.0">███</tspan><tspan x="252.0">█████</tspan><tspan x="475.2">███████████████</tspan><tspan x="777.6">███████████████</tspan><tspan x="892.8">████████████████████████</tspan></text>
 <text y="1095.8" fill="#ededed" xml:space="preserve"><tspan x="7.2">█████████████</tspan><tspan x="158.4">███</tspan><tspan x="216.0">██</tspan><tspan x="273.6">██</tspan><tspan x="489.6">████████████</tspan><tspan x="777.6">█████████████</tspan><tspan x="892.8">█████████████████████████</tspan></text>
 <text y="363.2" xml:space="preserve"><tspan x="1108.8" fill="#ededed" font-weight="700">murad</tspan><tspan x="1144.8" fill="#ededed">@</tspan><tspan x="1152.0" fill="#ededed" font-weight="700">github</tspan></text>
-<text y="381.8" xml:space="preserve"><tspan x="1108.8" fill="#707070">──────────────────────────────────────────────</tspan></text>
+<text y="381.8" xml:space="preserve"><tspan x="1108.8" fill="#707070">──────────────────────────────────────────────────────────────────</tspan></text>
 <text y="400.4" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Name</tspan><tspan x="1137.6" fill="#707070">.............. </tspan><tspan x="1245.6" fill="#ededed">Mohiuddin Murad</tspan></text>
 <text y="419.0" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Role</tspan><tspan x="1137.6" fill="#707070">.............. </tspan><tspan x="1245.6" fill="#ededed">Software Engineer @ StepUp</tspan></text>
 <text y="437.6" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Location</tspan><tspan x="1166.4" fill="#707070">.......... </tspan><tspan x="1245.6" fill="#ededed">Bangladesh</tspan></text>
-<text y="456.2" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Editor</tspan><tspan x="1152.0" fill="#707070">............ </tspan><tspan x="1245.6" fill="#ededed">VS Code, Sublime, PyCharm</tspan></text>
-<text y="493.4" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Frontend</tspan><tspan x="1166.4" fill="#707070">.......... </tspan><tspan x="1245.6" fill="#ededed">HTML5, CSS3, React, Tailwind, Sass</tspan></text>
+<text y="456.2" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Editor</tspan><tspan x="1152.0" fill="#707070">............ </tspan><tspan x="1245.6" fill="#ededed">VS Code, WebStorm, Sublime, PyCharm</tspan></text>
+<text y="493.4" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Frontend</tspan><tspan x="1166.4" fill="#707070">.......... </tspan><tspan x="1245.6" fill="#ededed">HTML5, CSS3, React, Next.js, Tailwind, Sass</tspan></text>
 <text y="512.0" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Backend</tspan><tspan x="1159.2" fill="#707070">........... </tspan><tspan x="1245.6" fill="#ededed">Node.js, Express.js</tspan></text>
 <text y="530.6" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Languages</tspan><tspan x="1173.6" fill="#707070">......... </tspan><tspan x="1245.6" fill="#ededed">JavaScript, C, C++, Java, Python</tspan></text>
 <text y="549.2" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Databases</tspan><tspan x="1173.6" fill="#707070">......... </tspan><tspan x="1245.6" fill="#ededed">MongoDB, MySQL, Firebase</tspan></text>
 <text y="567.8" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Tools</tspan><tspan x="1144.8" fill="#707070">............. </tspan><tspan x="1245.6" fill="#ededed">Git, Docker, Postman, Figma, Linux</tspan></text>
-<text y="605.0" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Learning</tspan><tspan x="1166.4" fill="#707070">.......... </tspan><tspan x="1245.6" fill="#ededed">Node.js / Express.js / MongoDB</tspan></text>
-<text y="623.6" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Ask.Me.About</tspan><tspan x="1195.2" fill="#707070">...... </tspan><tspan x="1245.6" fill="#ededed">JavaScript, React, Tailwind, CSS3</tspan></text>
+<text y="605.0" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Learning</tspan><tspan x="1166.4" fill="#707070">.......... </tspan><tspan x="1245.6" fill="#ededed">MongoDB</tspan></text>
+<text y="623.6" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Ask.Me.About</tspan><tspan x="1195.2" fill="#707070">...... </tspan><tspan x="1245.6" fill="#ededed">JavaScript, React, Next.js, Node.js, Express.js</tspan></text>
 <text y="660.8" xml:space="preserve"><tspan x="1108.8" fill="#ededed" font-weight="700">Contact</tspan></text>
 <text y="679.4" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Email</tspan><tspan x="1144.8" fill="#707070">............. </tspan><tspan x="1245.6" fill="#ededed">murad.stepup@gmail.com</tspan></text>
 <text y="698.0" xml:space="preserve"><tspan x="1108.8" fill="#ededed">Portfolio</tspan><tspan x="1173.6" fill="#707070">......... </tspan><tspan x="1245.6" fill="#ededed">murad00.vercel.app</tspan></text>
