@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a photo as colour block-text art in an SVG, beside a neofetch-style info panel.
+"""Render a photo as monochrome block-text art in an SVG, beside a neofetch-style info panel.
 
 usage: python3 svgart.py [cols] [out.svg] [--dark]
 """
@@ -17,53 +17,59 @@ LH    = FS * 1.00     # cell height: a full block glyph is ~1em tall, so rows bu
 ILH   = FS * 1.55     # line height for the info panel
 CUT   = 240           # luminance at/above this counts as background
 GAP   = 4             # blank columns between art and panel
-RAMP  = "███▓▒░ "     # dark -> light
+RAMP  = "███▓▒░ "     # densest -> empty
 
-THEME = dict(bg="#0d1117", fg="#c9d1d9", dim="#30363d", key="#58a6ff", accent="#3fb950") if DARK \
-   else dict(bg="#ffffff", fg="#1f2328", dim="#d0d7de", key="#0969da", accent="#1a7f37")
-SWATCH = ["#ff7b72", "#ffa657", "#e3b341", "#3fb950", "#39c5cf", "#58a6ff", "#bc8cff", "#8b949e"]
+# monochrome only: one ink colour, one muted tone, plus the page ground
+# strictly neutral greys -- no hue anywhere, so the art reads the same on any ground
+THEME = dict(bg="#000000", ink="#ededed", mute="#707070") if DARK \
+   else dict(bg="#ffffff", ink="#141414", mute="#949494")
+# neofetch's colour strip, rendered as a tonal ramp instead
+GREYS  = ["#242424", "#3c3c3c", "#545454", "#707070", "#949494", "#b4b4b4", "#d4d4d4", "#f0f0f0"]
+SWATCH = GREYS if DARK else GREYS[::-1]
 
 INFO = [
-    [("accent", "murad"), ("fg", "@"), ("accent", "github")],
-    [("dim", "─" * 46)],
-    [("key", "Name"), ("dim", ".............. "), ("fg", "Mohiuddin Murad")],
-    [("key", "Role"), ("dim", ".............. "), ("fg", "Software Engineer @ StepUp")],
-    [("key", "Location"), ("dim", ".......... "), ("fg", "Bangladesh")],
-    [("key", "Editor"), ("dim", "............ "), ("fg", "VS Code, Sublime, PyCharm")],
+    [("bold", "murad"), ("ink", "@"), ("bold", "github")],
+    [("mute", "─" * 46)],
+    [("ink", "Name"), ("mute", ".............. "), ("ink", "Mohiuddin Murad")],
+    [("ink", "Role"), ("mute", ".............. "), ("ink", "Software Engineer @ StepUp")],
+    [("ink", "Location"), ("mute", ".......... "), ("ink", "Bangladesh")],
+    [("ink", "Editor"), ("mute", "............ "), ("ink", "VS Code, Sublime, PyCharm")],
     [],
-    [("key", "Frontend"), ("dim", ".......... "), ("fg", "HTML5, CSS3, React, Tailwind, Sass")],
-    [("key", "Backend"), ("dim", "........... "), ("fg", "Node.js, Express.js")],
-    [("key", "Languages"), ("dim", "......... "), ("fg", "JavaScript, C, C++, Java, Python")],
-    [("key", "Databases"), ("dim", "......... "), ("fg", "MongoDB, MySQL, Firebase")],
-    [("key", "Tools"), ("dim", "............. "), ("fg", "Git, Docker, Postman, Figma, Linux")],
+    [("ink", "Frontend"), ("mute", ".......... "), ("ink", "HTML5, CSS3, React, Tailwind, Sass")],
+    [("ink", "Backend"), ("mute", "........... "), ("ink", "Node.js, Express.js")],
+    [("ink", "Languages"), ("mute", "......... "), ("ink", "JavaScript, C, C++, Java, Python")],
+    [("ink", "Databases"), ("mute", "......... "), ("ink", "MongoDB, MySQL, Firebase")],
+    [("ink", "Tools"), ("mute", "............. "), ("ink", "Git, Docker, Postman, Figma, Linux")],
     [],
-    [("key", "Learning"), ("dim", ".......... "), ("fg", "Node.js / Express.js / MongoDB")],
-    [("key", "Ask.Me.About"), ("dim", "...... "), ("fg", "JavaScript, React, Tailwind, CSS3")],
+    [("ink", "Learning"), ("mute", ".......... "), ("ink", "Node.js / Express.js / MongoDB")],
+    [("ink", "Ask.Me.About"), ("mute", "...... "), ("ink", "JavaScript, React, Tailwind, CSS3")],
     [],
-    [("accent", "Contact")],
-    [("key", "Email"), ("dim", "............. "), ("fg", "murad.stepup@gmail.com")],
-    [("key", "Portfolio"), ("dim", "......... "), ("fg", "murad00.vercel.app")],
-    [("key", "LinkedIn"), ("dim", ".......... "), ("fg", "linkedin.com/in/murad00")],
-    [("key", "Twitter"), ("dim", "........... "), ("fg", "@muradmy00")],
-    [("key", "GitHub"), ("dim", "............ "), ("fg", "github.com/muradmy00")],
+    [("bold", "Contact")],
+    [("ink", "Email"), ("mute", "............. "), ("ink", "murad.stepup@gmail.com")],
+    [("ink", "Portfolio"), ("mute", "......... "), ("ink", "murad00.vercel.app")],
+    [("ink", "LinkedIn"), ("mute", ".......... "), ("ink", "linkedin.com/in/murad00")],
+    [("ink", "Twitter"), ("mute", "........... "), ("ink", "@muradmy00")],
+    [("ink", "GitHub"), ("mute", "............ "), ("ink", "github.com/mohiuddinmurad0")],
 ]
 
 # ---------- sample the photo ----------
-src  = ImageEnhance.Color(ImageEnhance.Contrast(Image.open(SRC).convert("RGB")).enhance(1.1)).enhance(1.2)
+src  = ImageEnhance.Contrast(Image.open(SRC).convert("L")).enhance(1.1)
 rows = int(src.height / src.width * COLS * (AD / LH))
-col  = src.resize((COLS, rows), Image.LANCZOS)
-lum  = col.convert("L")
-cp, lp = col.load(), lum.load()
+lum  = src.resize((COLS, rows), Image.LANCZOS)
+lp   = lum.load()
 
 def cell(x, y):
+    """Pick a ramp glyph for this cell, or None to leave the background bare.
+
+    On a light ground more ink means darker; on a dark ground the ink *is* the
+    light, so the mapping flips — otherwise the portrait comes out a negative.
+    """
     v = lp[x, y]
     if v >= CUT:
         return None
-    ch = RAMP[min(len(RAMP) - 1, int(v / CUT * (len(RAMP) - 1)))]
-    if ch == " ":
-        return None
-    r, g, b = cp[x, y]
-    return ch, f"#{r:02x}{g:02x}{b:02x}"
+    t = (CUT - 1 - v) / CUT if DARK else v / CUT
+    ch = RAMP[min(len(RAMP) - 1, int(t * (len(RAMP) - 1)))]
+    return None if ch == " " else ch
 
 # drop lone specks left over in the background
 keep = [[cell(x, y) for x in range(COLS)] for y in range(rows)]
@@ -90,19 +96,22 @@ o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:.0f}" height="{heig
 pad = LH * 1.5
 for y in range(rows):
     base = pad + y * LH + FS * 0.82
-    spans, run, rx, rc = [], "", None, None
+    spans, run, rx = [], "", None
     for x in range(COLS):
         c = keep[y][x]
-        if c and c[1] == rc:
-            run += c[0]
+        if c:
+            if not run:
+                rx = x * AD + AD
+            run += c
         else:
             if run:
-                spans.append(f'<tspan x="{rx:.1f}" fill="{rc}">{html.escape(run)}</tspan>')
-            run, rx, rc = (c[0], x * AD + AD, c[1]) if c else ("", None, None)
+                spans.append(f'<tspan x="{rx:.1f}">{html.escape(run)}</tspan>')
+            run, rx = "", None
     if run:
-        spans.append(f'<tspan x="{rx:.1f}" fill="{rc}">{html.escape(run)}</tspan>')
+        spans.append(f'<tspan x="{rx:.1f}">{html.escape(run)}</tspan>')
     if spans:
-        o.append(f'<text y="{base:.1f}" xml:space="preserve">{"".join(spans)}</text>')
+        o.append(f'<text y="{base:.1f}" fill="{THEME["ink"]}" '
+                 f'xml:space="preserve">{"".join(spans)}</text>')
 
 off = max(0, (art_h - len(INFO) * ILH) / 2)
 for i, line in enumerate(INFO):
@@ -110,7 +119,10 @@ for i, line in enumerate(INFO):
         continue
     base, x, spans = pad + off + i * ILH + FS * 0.82, info_x0, []
     for kind, text in line:
-        spans.append(f'<tspan x="{x:.1f}" fill="{THEME[kind]}">{html.escape(text)}</tspan>')
+        # no colour to lean on, so emphasis is carried by weight
+        attr = f'fill="{THEME["ink"]}" font-weight="700"' if kind == "bold" \
+          else f'fill="{THEME[kind]}"'
+        spans.append(f'<tspan x="{x:.1f}" {attr}>{html.escape(text)}</tspan>')
         x += len(text) * AD
     o.append(f'<text y="{base:.1f}" xml:space="preserve">{"".join(spans)}</text>')
 
