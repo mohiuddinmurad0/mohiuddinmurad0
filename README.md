@@ -18,7 +18,7 @@
 ---
 
 - 🌱 I’m currently learning **MongoDB**
-- 👨‍💻 All of my projects are available at [murad00.vercel.app](https://murad00.vercel.app/)
+- 👨‍💻 All of my projects are available at [murad00.vercel.app](https://mohiuddinmurad00.vercel.app)
 - 📝 I publish my work live on [Vercel](https://vercel.com/mohiuddin-murads-projects)
 - 💬 Ask me about **JavaScript, React, Next.js, Node.js, Express.js**
 - 📫 How to reach me **murad.stepup@gmail.com**
